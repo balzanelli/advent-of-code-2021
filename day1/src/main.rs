@@ -12,4 +12,5 @@ fn main() {
         .unwrap();
 
     println!("part1: {}", part1::solve(&input).unwrap());
+    println!("part2: {}", part2::solve(&input).unwrap());
 }
