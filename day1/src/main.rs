@@ -1,14 +1,15 @@
-use std::fs;
-
 mod part1;
 mod part2;
-
-static INPUT_PATH: &str = "./day1/input";
 
 fn main() {
     println!("advent-of-code-2021: day1");
 
-    let input = fs::read_to_string(INPUT_PATH)
+    let file_path: String = std::env::args()
+        .skip(1)
+        .next()
+        .unwrap_or(String::from("./day1/input"));
+
+    let input = std::fs::read_to_string(file_path)
         .unwrap();
 
     println!("part1: {}", part1::solve(&input).unwrap());
