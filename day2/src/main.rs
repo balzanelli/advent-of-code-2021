@@ -12,6 +12,6 @@ fn main() {
     let input = std::fs::read_to_string(file_path)
         .unwrap();
 
-    println!("part1: {}", part1::solve(&input).unwrap());
-    println!("part2: {}", part2::solve(&input).unwrap());
+    println!("part1: {}", part1::solve(&input));
+    println!("part2: {}", part2::solve(&input));
 }
