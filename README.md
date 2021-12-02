@@ -6,3 +6,28 @@ Advent of Code 2021 Solutions in Rust
 
 - [Day 1: Sonar Sweep](day1)
 - [Day 2: Dive!](day2)
+
+## Usage
+
+### Unit Tests
+
+Unit tests are provided for each day's example to verify the solution returns the correct results. Unit tests can be run
+either for the whole workspace or for an individual day.
+
+```shell
+# Run Unit Tests for All Days
+cargo test
+
+# Run Unit Tests for an Individual Day
+cargo test -p day1
+```
+
+### Real Input Data
+
+Real input data is provided to each day's challenge using the standard input stream (stdin). The package will attempt to
+solve part 1 and part 2 of a day's challenge.
+
+```shell
+# Solve Part 1 and Part 2 of an Individual Day's Challenge
+cargo run -p day1 < day1/input
+```
