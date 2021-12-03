@@ -1,5 +1,6 @@
 use std::io::Read;
 
+mod measurements;
 mod part1;
 mod part2;
 

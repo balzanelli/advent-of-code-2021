@@ -1,10 +1,7 @@
-pub fn solve(input: &str) -> usize {
-    let measurements: Vec<i32> = input
-        .lines()
-        .map(|line| line.trim().parse().unwrap())
-        .collect();
+use crate::measurements::parse_measurements;
 
-    measurements
+pub fn solve(input: &str) -> usize {
+    parse_measurements(input)
         .windows(2)
         .filter(|pair| pair[0] < pair[1])
         .count()
