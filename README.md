@@ -6,6 +6,9 @@ Advent of Code 2021 Solutions in Rust
 
 - [Day 1: Sonar Sweep](day1)
 - [Day 2: Dive!](day2)
+- [Day 5: Hydrothermal Venture](day5)
+- [Day 6: Lanternfish](day6)
+- [Day 7: The Treachery of Whales](day7)
 
 ## Usage
 
