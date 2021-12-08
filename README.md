@@ -9,6 +9,7 @@ Advent of Code 2021 Solutions in Rust
 - [Day 5: Hydrothermal Venture](day5)
 - [Day 6: Lanternfish](day6)
 - [Day 7: The Treachery of Whales](day7)
+- [Day 8: Seven Segment Search](day8)
 
 ## Usage
 
