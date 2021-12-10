@@ -11,6 +11,7 @@ Advent of Code 2021 Solutions in Rust
 - [Day 7: The Treachery of Whales](day7)
 - [Day 8: Seven Segment Search](day8)
 - [Day 9: Smoke Basin](day9)
+- [Day 10: Syntax Scoring](day10)
 
 ## Usage
 
